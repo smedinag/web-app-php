@@ -1,0 +1,145 @@
+
+//* reset margins; image will aligned with the baseline of text if in-line */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li,
+pre, form, label, table, caption, tbody, tfoot, thead,tr, th, td, footer, header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+a:link {
+    color: #E79518;
+}
+
+/* visited link */
+a:visited {
+    color: #E8F512;
+}
+
+/* mouse over link */
+a:hover {
+    color: #12F51B;
+}
+
+/* selected link */
+a:active {
+    color: #1AEBEA;
+}
+
+.button {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+	font: Georgia, serif;
+}
+
+.textbox {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	font: Georgia, serif;
+}
+
+body{
+    background-color: #FFFFFF;
+	margin-right:200px;
+}
+
+body, p, input, select{
+    line-height: 1.2;
+    font-family: Georgia, serif;
+    font-size: 16pt;
+	color: white;
+}
+
+/* reasonable starting margins; 
+5em - 5 characters;
+.5ex - .5 lower case letter; 
+pt - point of a font
+
+*/
+h1, h2, h3, h4, h5, h6, ol, ul, li { margin: .5ex 12pt; }
+p { margin: 1ex 12pt; }
+li { margin-left: 2em; }
+
+/* setup headings */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+h1 { font-size: 120%; text-align: center; }
+h2 { font-size: 110%;text-align: center ; }
+h3 { font-size: 100%; }
+h4 { font-size: 100%; }
+h5 { font-size: 100%; }
+h6 { font-size: 100%; }
+
+/* setup pre */
+pre { font-family: Comic Sans MS, cursive, sans-serif }
+
+textarea {
+    width: 300px;
+    height: 150px;
+    font-size: 15pt;
+}
+
+
+/* setup body color
+http://www.w3schools.com/tags/ref_colorpicker.asp
+#CEE3F6 - light blue
+#def - means #ddeeff; lighter blue than #CEE3F6
+#eee - light grey;
+#D3F3D9 - green
+#E1D690 - yellow
+#E1C304- olive
+
+/* table1 class */
+table.table1 { border-collapse: collapse; } /*collapse or  separate*/
+table.table1 th, td { border: 1px solid black; }
+table.table1 th {background-color: #3498DB; padding: 10px 3px;}
+table.table1 td { padding: 0px 3px; color: black;}
+
+
+/* alternate row color
+the table below has a light gray background for the even rows and white for the odd ones.
+*/
+table.table1 tr:nth-child(even) {background: #D7DBDD}
+table.table1 tr:nth-child(odd) {background: #F2F3F4}		  
+
+table.table1 tfoot td {
+	text-align: center;
+	font-size: 75%;
+	} 
+	
+/* table2 */
+table.table2 { border-collapse: collapse; }
+table.table2 th, td { border: 1px solid black; }
+table.table2 th, td { padding: 0 3px; }
+table.table2 tfoot td {
+					background-color: #eee;
+					text-align: center;
+					font-size: 75%;
+					}
+
+/* table3 */
+table.table3 { border-collapse: collapse; } /*collapse or  separate*/
+table.table3 th, td { border: 2px solid black; }
+table.table3 th {background-color: #3498DB; padding: 10px 3px;}
+table.table3 td { padding: 0px 3px; }
+
+/*alternate column color
+The following rules give the first column a yellow background, and then every other column starting from column 3 a gray one:
+*/
+table.table3 td:first-child {background: #3498DB}
+table.table3 td:nth-child(2n+3) {background: #D7DBDD}
