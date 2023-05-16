@@ -95,16 +95,16 @@ if(!empty($connection))
     <link rel="stylesheet" type="text/css" HREF="Style.css" >
 
 </head>
-<body background= "geneticsdark.jpg" alt="Ejemplo de website" style="width:1400px;height:800px;" >
+<body background= "./images/cinemaClassic.avif" alt="Ejemplo de website" style="width:1400px;height:800px;" >
 <h1>
-    Use sakila Database
+    Usando la base de datos Sakila
 </h1>
 <br>
 <hr>
 
 <form name="form1" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
 
-<p>Get a details by entering a Actor ID:
+<p>Ingrese el identificador (ID) del Actor:
 <input type="text"  name="actor_id" placeholder="1" class="textbox"
 	<?php
 		if(!empty($connection))
@@ -114,10 +114,10 @@ if(!empty($connection))
 
 ?>
 />
-Ex.:1101, 7456 etc.
+Ex.:1, 200 etc.
 </p>
 <input type="submit" name="submit1" value="Submit" class="button"/>
-<input Type="button" value="Volver al Report Search Page" onclick="window.location.href='Index.php'"class="button" />
+<input Type="button" value="Volver a la página inicial" onclick="window.location.href='Index.php'"class="button" />
 </form>
 
 <!--  preformatted tag

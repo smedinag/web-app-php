@@ -11,33 +11,33 @@ http://localhost/webapp_p2p/FutureWork.php
     </title>
 	<link rel="stylesheet" type="text/css" HREF="Style.css" >
 </head>
-<body background= "geneticsdark.jpg" alt="Bioinformatics website" style="width:1400px;height:800px;">
+<body background= "./images/cinemaClassic.avif"  alt="Example website" style="width:1400px;height:800px;">
 
 <h1>
-    Future Work
+    Trabajo Futuro
 
 </h1>
 <br>
-	<input Type="button" class="button" value="Go Back to Home Page" onclick="window.location.href='ProjectPresentation.php'"> 
+	<input Type="button" class="button" value="Volver al Home Page" onclick="window.location.href='ProjectPresentation.php'">
 <hr>
 <ol>
 <br/>
 <br/>
-	<li> <b>Data Repository</b>
-	<p> -    This database I created can be expanded:
-	<br/> -    The size of the database when increased can cover a breadth of diseases thereby providing...
-	<br/>... more protein and gene information
-	<br/> -    When as much information as the UniProt website itself is stored, I can query for information...
-	<br/>...rather than visiting the website.
+	<li> <b>La base de datos Sakila</b>
+	<p> -    Es una base de datos de muestra que se utiliza a menudo para fines de prueba y aprendizaje.
+	<br/> -  Fue creada por MySQL y es un ejemplo de un sistema de gestión de bases de datos relacionales (RDBMS).
+	<br/> -   La base de datos Sakila contiene información sobre una tienda de alquiler de DVD ficticia,
+	<br/>     que incluye datos sobre clientes, alquileres, inventario y personal.
 	</p>
 	</li>
 	<br/>
 	<br/>
-	<li> <b>Website: One place for all</b>
-	<p>  -    Provided I accumulate all the information, I can create my own website which has details of...
-	<br/> ...proteins, genes, disease and also disease ontology information. One stop for all information.
-	<br/>  -    To gather the same or similar data, one can just visit the website I create rather than...
-	<br/> ... visiting 3-4 different resources as I did during creating this web application.
+	<li> <b>Esquema: </b>
+	<p>  -    El esquema de la base de datos incluye tablas como 'cliente', 'alquiler', 'inventario'
+	<br/>     y 'personal', y también incluye relaciones entre estas tablas.
+	<br/>  -   La base de datos Sakila se utiliza ampliamente como herramienta de aprendizaje para SQL
+	<br/>      y gestión de bases de datos, ya que proporciona un ejemplo práctico de datos del mundo real
+	<br/>      y cómo pueden organizarse en una base de datos relacional.
 	</p>
 	</li>
 	

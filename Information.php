@@ -31,7 +31,7 @@ if (isset($_POST["submit1"]) && !empty($_POST["choice"]))
 if (isset($_POST['submit1']) && empty($_POST['choice'])) 
 	
 	{
-		$error_message = 'please enter a choice';
+		$error_message = 'Por favor escoja una opción';
 	}
 
 
@@ -59,7 +59,7 @@ if(!empty($connection))
     </title>
     <link rel="stylesheet" type="text/css" HREF="Style.css" >
 </head>
-<body background= "geneticsdark.jpg" alt="Bioinformatics website" style="width:1400px;height:800px;" 
+<body background= "./images/cinemaClassic.avif"  alt="example website" style="width:1400px;height:800px;"
 <h1>
     Use prod_p2p Database
 </h1>

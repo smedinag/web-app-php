@@ -13,7 +13,7 @@ http://localhost/webapp_p2p/WebsiteDocumentation.php
     </title>
     <link rel="stylesheet" type="text/css" HREF="Style.css" >
 </head>
-<body background= "geneticsdark.jpg" alt="Bioinformatics website" style="width:1400px;height:800px;">
+<body background= "./images/cinemaClassic.avif" alt="example website" style="width:1400px;height:800px;">
 <h1>
     My Website Documentation
 	<br>
@@ -29,7 +29,7 @@ http://localhost/webapp_p2p/WebsiteDocumentation.php
 	<li>
 	<p><a href="DescribeData.php" ><b>Description of my data</b></a></p></li>
 	<li>
-	<p><a href="prod_p2p.pdf" target="_blank" ><b>E-R diagram of my relational data model</b></a></p></li>
+	<p><a href="./images/diagramER.png" target="_blank" ><b>E-R diagram of my relational data model</b></a></p></li>
 	<li>
 	<p><a href="HowToDeployMyWebsite.php" target="_blank"><b>How to deploy my web application</b></a></p></li>
 		<li>

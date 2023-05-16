@@ -11,7 +11,7 @@ http://localhost/webapp_p2p/PracticalApplications.php
     </title>
 	<link rel="stylesheet" type="text/css" HREF="Style.css" >
 </head>
-<body background= "geneticsdark.jpg" alt="Bioinformatics website" style="width:1400px;height:800px;">
+<body background= "./images/cinemaClassic.avif"  alt="example website" style="width:1400px;height:800px;">
 
 <h1>
     Practical Applications

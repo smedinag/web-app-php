@@ -76,7 +76,7 @@ This is a comment. Comments are not displayed in the browser
     </title>
     <link rel="stylesheet" type="text/css" HREF="Style.css">
 </head>
-<body background= "geneticsdark.jpg" alt="Bioinformatics website" style="width:1400px;height:800px;" >
+<body background= "./images/cinemaClassic.avif"  alt="example website" style="width:1400px;height:800px;" >
 <h1>
     Use prod_p2p Database
 </h1>

@@ -5,7 +5,7 @@ To run it as a php file:
 http://localhost/webapp_p2p/DescribeData.php
 -->
 
-<html lang='en'>
+<html lang='es'>
 <head>
     <meta charset="UTF-8" /> 
     <title>
@@ -13,7 +13,7 @@ http://localhost/webapp_p2p/DescribeData.php
     </title>
     <link rel="stylesheet" type="text/css" HREF="Style.css" >
 </head>
-<body background= "geneticsdark.jpg" alt="Bioinformatics website" style="width:1400px;height:800px;">
+<body background= "./images/cinemaClassic.avif"  alt="example website" style="width:1400px;height:800px;">
 <h1>
     My bioinformatics data set
 	
@@ -47,7 +47,7 @@ http://localhost/webapp_p2p/DescribeData.php
 
 	</p></li>
 
-	<li> <b>What are the buisness rules or specifications of my data set?</b>
+	<li> <b>What are the business rules or specifications of my data set?</b>
 	<p> <b>Business statement:</b>
 		<br/>My system is a website which provides protein-to-phenotype information by collecting functional information on proteins, genes and related diseases.
 		<br/>Mendelian disorder data along with ontology (set of concepts in a domain) associated with various human diseases caused by these proteins are also provided.

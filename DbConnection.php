@@ -6,11 +6,11 @@ http://localhost/webapp_php/DbConnection.php
 */
 /* mysql */
 	$dbhost ="localhost:3306";
-	$dbuser = "root";
-	$dbpass = "blaumond19";
-	$dbname = "sakila";
+	$dbuser = "root"; // usuario de mysql
+	$dbpass = "blaumond"; // contraseña de mysql
+	$dbname = "sakila";  // nombre de la base de datos
 
-
+    //variable que guarda la conexión de la base de datos
 	$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 	// Test if connection occurred.
 	if (mysqli_connect_errno()){
